@@ -1,0 +1,179 @@
+.container{
+   
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* ----for forms-------- */
+.error-text{
+    background: #f595eb;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    color: #bb3333;
+    font-weight: 600;
+    border-radius: 5px;
+    display: none;
+     box-shadow:  -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+  .form{
+    /* position: relative; */
+    border: 1px solid #00b0e0;
+    width: 500px;
+    padding: 10px;
+    /* flex-basis: 100%; */
+    /* left: 70px; */
+    margin: 10px 0;
+    top: -10px;
+    border-radius: 10px;
+    padding-bottom: 3%;
+    height: 770px;
+    box-shadow: 8px 4px 7px 4px rgba(204, 0, 223, 0.1);
+  }
+  .make{
+    background: #0004ff;
+    text-shadow: linear-gradient(to right, #00b0e0, #00ffc8);
+    background: linear-gradient(to right, #ea00ff, #00fff2);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    margin: -15px 20px;
+    /* top: 10px;
+    right: 100px; */
+  }
+  label{
+    font-size: 23px;
+    color: rgb(0, 140, 255);
+    font-weight: 500;
+  }
+  option{
+    font-size: 20px;
+    color: rgb(0, 195, 255);
+    font-weight: 600;
+    background: transparent;
+    border-radius: 5px;
+  }
+select{
+    padding: 8px;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgb(0, 195, 255);
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+  .form form .fields{
+    width: 100%;
+    font-size: 20px;
+    margin: 20px 0;
+    position: relative;
+    top: 30px;
+}
+.form form .fields input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid #8f8f8f;
+    border-radius: 7px;
+    font-weight: 700;
+    color: #e000e0;
+}
+.form form .fields input:focus{
+
+    border: 2px solid #00d1e0;
+}
+.form form .fields button{
+    width: 100%;
+    font-size: 25px;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: #dae8ec;
+    font-weight: 700;
+    background: linear-gradient(to right, #00b0e0, #e000e0);
+}
+.form form .fields button:hover{
+    background: linear-gradient(to right, #1082a1, #8f1a89);
+    color: #63c7e0;
+}    
+.form form .fields button a{
+        width: 100%;
+    font-size: 25px;
+    text-decoration: none;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: #dae8ec;
+    font-weight: 700;
+  
+}
+/* form media query */
+@media(max-width:769px){
+  #interface{
+    width: calc(100% - 506px);
+    left: 20px;
+    position: relative;
+}
+#interface .header{
+  background: linear-gradient(to right, #ecf8f1, #628ecb);
+    padding: 15px 20px;
+    border-bottom: 1px solid #f74eef;
+    width: calc(100% - 0px);
+    position: fixed;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    height: 70px;
+}
+    .container{
+        position: relative;
+       /* top: 60px; */
+        background-image: url(img/bakgnd.png);
+        /* padding-bottom: 1%; */
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        background-blend-mode: multiply;
+        flex-basis: 100%;
+        /* width: 100%; */
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .form{
+        /* position: relative; */
+        border: 1px solid #00b0e0;
+        width: 340px;
+        padding: 10px;
+        /* flex-basis: 100%; */
+        /* left: 70px; */
+        top: -10px;
+        margin: 0 10px;
+        border-radius: 10px;
+        padding-bottom: 3%;
+        height: 780px;
+        box-shadow: 8px 4px 7px 4px rgba(204, 0, 223, 0.1);
+      }
+      .text h5{
+        font-size: 14px;
+        top: 20px;
+        position: relative;
+        word-break: break-all;
+      }
+}

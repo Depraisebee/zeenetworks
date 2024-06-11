@@ -1,0 +1,144 @@
+/* ----for forms-------- */
+.error-text{
+    margin: .6em .2em;
+    background: #f595eb;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    color: #bb3333;
+    font-weight: 600;
+    border-radius: 5px;
+    display: none;
+     box-shadow:  -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+  form{
+    align-items: center;
+    align-self: center;
+    align-content: space-around;
+    position: relative;
+    border: 1px solid #00b0e0;
+    width: 400px;
+    padding: 10px;
+    flex-basis: 100%;
+    top: 20px;
+    border-radius: 10px;
+    padding-bottom: 3%;
+    height: 480px;
+    box-shadow: 8px 4px 7px 4px rgba(204, 0, 223, 0.1);
+  }
+  .make{
+    background: #0004ff;
+    text-shadow: linear-gradient(to right, #00b0e0, #00ffc8);
+    background: linear-gradient(to right, #ea00ff, #00fff2);
+   -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 22px;
+    margin: -5px 50px;
+    /* top: 10px;
+    right: 100px; */
+  }
+  label{
+    font-size: 20px;
+    color: #00d1e0;
+    font-weight: 600;
+    text-align: left;
+  }
+  option{
+    font-size: 16px;
+    color: rgb(0, 195, 255);
+    font-weight: 600;
+  
+  }
+select{
+    padding: 8px;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgb(0, 195, 255);
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid #00d1e0;
+    cursor: pointer;
+}
+   form .fields{
+    top: 20px;
+    position: relative;
+    font-size: 20px;
+    margin: 10px 0;
+    position: relative;
+}
+ form .fields input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid #00d1e0;
+    border-radius: 7px;
+    font-weight: 700;
+    color: #e000e0;
+    background: transparent;
+}
+form .fields input:focus{
+
+    border: 2px solid #00d1e0;
+}
+form .fields button{
+    width: 100%;
+    font-size: 25px;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: #dae8ec;
+    font-weight: 700;
+    background: linear-gradient(to right, #00b0e0, #e000e0);
+}
+ form .fields button:hover{
+    background: linear-gradient(to right, #1082a1, #8f1a89);
+    color: #ff00f2;
+}    
+form .fields button a{
+        width: 100%;
+    font-size: 25px;
+    text-decoration: none;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: #dae8ec;
+    font-weight: 700;
+    background: linear-gradient(to right, #00b0e0, #e000e0);
+}
+p a .link{
+  text-decoration: none;
+}
+@media(max-width:769px){
+  #close-btn{
+    color: #00b0e0;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+ }
+
+ form{
+  align-items: center;
+  align-self: center;
+  align-content: space-around;
+  position: relative;
+  border: 1px solid #00b0e0;
+  width: 300px;
+  padding: 10px;
+  flex-basis: 100%;
+  top: 20px;
+  border-radius: 10px;
+  padding-bottom: 3%;
+  height: 480px;
+  box-shadow: 8px 4px 7px 4px rgba(204, 0, 223, 0.1);
+}
+}

@@ -1,0 +1,31 @@
+
+.contact h2{
+    color: #01b0e0;
+    padding: 5px;
+    font-size: 40px;
+}
+.contact .card{
+    border-radius:5px;
+    background: linear-gradient(to right, #eaf2ff, #628ecb);
+    width: 100%;
+    padding: 4px;
+    overflow-x: scroll;
+    box-shadow: 2px 1px 2px 2px rgb(10,10,10, .3);
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+  .contact .card h4{
+   font-size: 20px;
+   color: #3c73c0 ;
+}
+.contact .card p{
+   font-size: 18px;
+  font-family: Trebuchet MS;
+  line-height: 20px;
+  color: #131318;
+}
+
+.contact .card p a{
+    color: #124c9e;
+}
+

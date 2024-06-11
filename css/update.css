@@ -1,0 +1,29 @@
+ /* -for updates---- */
+ 
+
+.updates h2{
+    color: 628ecb;
+    padding: 5px;
+    color: #628ecb;
+}
+.updates .card{
+    border-radius:5px;
+    /* background: #f1f1f1; */
+    /* background: linear-gradient(to bottom, #f3faf5, #00be39); */
+    width: 100%;
+    padding: 4px;
+    overflow-x: scroll;
+    box-shadow: 2px 1px 2px 2px rgb(10,10,10, .3);
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+  .updates .card h4{
+   font-size: 20px;
+   color: #161e29 ;
+}
+.updates .card p{
+   font-size: 18px;
+  font-family: Trebuchet MS;
+  line-height: 30px;
+}
+

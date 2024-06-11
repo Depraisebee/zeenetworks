@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+#interface {
+    width: calc(100% - 326px);
+    left: 250px;
+    position: relative;
+}
+
+#interface .header {
+    background: linear-gradient(to right, #eaf2ff, #628ecb);
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    z-index: 99;
+    border-bottom: 1px solid #e001d5;
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.3); /* Added alpha for shadow */
+}
+
+.info h2 {
+    color: #01b0e0;
+    padding: 5px;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif; /* Added font family */
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    margin: 4px; 
+    gap: 8px;
+    padding: 30px;
+}
+
+.info-container .card {
+    border-radius: 30px;
+    background: linear-gradient(to right, #eaf2ff, #628ecb);
+    width: 100%;
+    padding: 16px; /* Increased padding for better spacing */
+    box-shadow: 2px 1px 2px 2px rgba(10, 10, 10, 0.3); /* Corrected syntax */
+    box-sizing: border-box;
+    margin: 8px 0;
+    font-family: 'Roboto', sans-serif; /* Added font family */
+    cursor: pointer;
+}
+
+.info-container .card h4 {
+    font-size: 20px;
+    color: #2c6cc5;
+    font-family: 'Roboto', sans-serif; /* Added font family */
+    font-weight: 400; /* Ensure bold weight is applied */
+}
+
+.info-container .card p{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    color: #14191f;
+}
+
+.info-container .card p a {
+    color: #01b0e0;
+}
+.CEO{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(to right, #eaf2ff, #628ecb);
+
+}
+.CEO h2{
+    font-size: 40px;
+}
+.wrapper{
+     border-top: #0f1516 2px solid;
+     padding: 8px;
+}
+#icons{
+    box-shadow: 2px 1px 12px  rgba(10, 10, 10, 0.3); /* Corrected syntax */
+    padding: 8px;
+}
+.CEO-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: linear-gradient(to left, #eaf2ff, #628ecb);
+    background-color: #01b0e0;
+    box-shadow: 2px 1px 12px  rgba(10, 10, 10, 0.3); /* Corrected syntax */
+    padding: 2px;
+}   
+.CEO-name h4{
+    font-size: 25px;
+    padding: 8px;
+}
+.title{
+    padding: 5px;
+}
+@media (max-width: 769px) {
+    .info-container {
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .info-container .card {
+        border-radius: 30px;
+        background: linear-gradient(to right, #eaf2ff, #628ecb);
+        width: 100%;
+        padding: 16px; /* Increased padding for better spacing */
+        box-shadow: 2px 1px 2px 2px rgba(10, 10, 10, 0.3); /* Corrected syntax */
+        box-sizing: border-box;
+        margin: 8px 0;
+        font-family: 'Roboto', sans-serif; /* Added font family */
+        overflow: hidden;
+    }
+}

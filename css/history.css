@@ -1,0 +1,71 @@
+/* ----------for history--------------- */
+
+.history{
+    width: 100%;
+    top: 70px;
+    padding: 8px;
+   background: linear-gradient(to right, #0b59c7, #628ecb);
+}
+.history h2{
+    color: #142020;
+    padding: 5px;
+}
+.history .card{
+    border-radius:5px;
+    /* background: #f1f1f1; */
+    background: linear-gradient(to right, #0b59c7, #628ecb);
+    width: 100%;
+    padding: 6px;
+    overflow-x: scroll;
+    box-shadow: 1px 1px 20px 1px rgb(10,10,10);
+    box-sizing: border-box;
+}
+.history .card h4{
+   font-size: 20px;
+   color: #b4ceca;
+   padding: 5px;
+}
+.history .card::-webkit-scrollbar{
+    height: 4px;
+}
+ .history .card::-webkit-scrollbar-thumb{
+   background: #e2ffe9;
+   cursor: pointer;
+ }
+table {
+border-collapse: collapse;
+width: 100%;
+white-space: nowrap;
+box-sizing: border-box;
+border-radius: 5px;
+}
+th{
+color: #162225;
+font-weight: 700;
+border-bottom: 1px solid;
+
+}
+th, td {
+padding: 10px;
+text-align: left;
+border: 1px solid #ccc;
+}
+td{
+color: #333;
+
+}
+
+tr button {
+background: transparent;
+font-weight: 500;
+font-size: 20px;
+border: 2px solid #9be9ff;
+border-radius: 10px;
+padding:8px;
+}
+
+tr button a {
+text-decoration: none;
+color: #00b0e1;
+}
+

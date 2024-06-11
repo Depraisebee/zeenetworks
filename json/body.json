@@ -1,0 +1,18 @@
+
+{
+    "subscriber": {
+      "msisdn": "70***14"
+    },
+    "transaction": {
+      "amount": "100",
+      "id": "12***260"
+    },
+    "additional_info": [
+      {
+        "key": "remark",
+        "value": "AIRTXXXXXX"
+      }
+    ],
+    "reference": "10***2",
+    "pin": "KYJE***+o8="
+  }

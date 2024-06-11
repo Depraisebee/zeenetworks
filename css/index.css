@@ -1,0 +1,103 @@
+.home-text p{
+    font-size: 25px;
+    padding: 7px;
+    color: rgb(0, 205, 241);
+}
+.row{
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
+.content .card{
+    background: transparent;
+    border: 2px solid rgb(0, 205, 241);
+    margin: 15px;
+    text-align: center;
+    padding: 60px;
+    border-radius: 20px 6px 20px 6px;
+    flex-basis: 100%;
+    cursor: pointer;
+    transition: all .4s;
+    width: 97%
+}
+.content .card h2{
+color: rgb(0, 152, 241);
+font-weight: 700;
+
+}
+.card p{
+    color:#7c7c7c;
+    font-weight: 400;
+    padding: 18px;
+    
+    }
+  .link a{
+    background: transparent;
+    padding: 10px 25px 10px 25px;
+    width: 100%;
+    border: 2px solid #92b8c4;
+    color: #00b0e0;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: all .5s;
+  }
+  .link a:hover{
+
+    background: linear-gradient(to right, #1082a1, #8f1a89);
+    color: #dae8ec;
+    border: none;
+  }
+  @media(max-width:760px){
+    .home-text p{
+      font-size: 25px;
+      padding: 7px;
+      color: rgb(0, 205, 241);
+  }
+  .row{
+      display: inline;
+      text-align: center;
+      margin: auto;
+  }
+  .content .card{
+      background: transparent;
+      border: 2px solid rgb(0, 205, 241);
+      text-align: center;
+      padding: 50px;
+      border-radius: 20px 6px 20px 6px;
+      flex-basis: 100%;
+      cursor: pointer;
+      transition: all .4s;
+      width: 94%
+      
+  }
+  .content .card h2{
+  color: rgb(0, 152, 241);
+  font-weight: 700;
+  
+  }
+  .card p{
+      color:#7c7c7c;
+      font-weight: 400;
+      padding: 18px;
+      
+      }
+    .link a{
+      background: transparent;
+      padding: 10px 25px 10px 25px;
+      width: 100%;
+      border: 2px solid #92b8c4;
+      color: #00b0e0;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 30px;
+      transition: all .5s;
+    }
+    .link a:hover{
+  
+      background: linear-gradient(to right, #1082a1, #8f1a89);
+      color: #dae8ec;
+      border: none;
+    }
+  
+  }

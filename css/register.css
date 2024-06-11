@@ -1,0 +1,145 @@
+body{
+  background: linear-gradient(to right, #d3ecd9, #00b928);
+
+}
+/* ----for forms-------- */
+.error-text{
+    background: #f595eb;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    color: #bb3333;
+    font-weight: 600;
+    border-radius: 5px;
+    display: none;
+     box-shadow:  -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+  .form{
+   
+    align-items: center;
+    border: 1px solid #00b0e0;
+    justify-content: center;
+    display: grid;
+    width: 400px;
+    padding: 10px;
+    /* margin-left: 500px; */
+    top: 40px;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 3%;
+    height: 70em;
+    box-shadow: 8px 4px 7px 4px rgba(204, 0, 223, 0.1);
+  }
+  .make{
+    background: #0004ff;
+    text-shadow: linear-gradient(to right, #00b0e0, #00ffc8);
+    background: linear-gradient(to right, #ea00ff, #00fff2);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    margin: 10px 20px;
+    /* top: 10px;
+    right: 100px; */
+  }
+  label{
+    font-size: 20px;
+    color: #00d1e0;
+    font-weight: 600;
+  }
+  option{
+    font-size: 20px;
+    color: rgb(0, 195, 255);
+    font-weight: 600;
+  
+  }
+select{
+    padding: 8px;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgb(0, 195, 255);
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #00d1e0;
+    background: transparent;
+}
+  .form form .fields{
+    width: 100%;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.form form .fields input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid #00d1e0;
+    border-radius: 7px;
+    font-weight: 700;
+    color: #e000e0;
+    background: transparent;
+}
+.form form .fields input:focus{
+
+    border: 2px solid #00d1e0;
+}
+.form form .fields button{
+    width: 100%;
+    font-size: 25px;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: #dae8ec;
+    font-weight: 700;
+    background: linear-gradient(to right, #00b0e0, #e000e0);
+    transition: .4s ease;
+}
+.form form .fields button:hover{
+    background: linear-gradient(to right, #1082a1, #8f1a89);
+    color: #ff00f2;
+}    
+.form form .fields button a{
+        width: 100%;
+    font-size: 25px;
+    text-decoration: none;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: #dae8ec;
+    font-weight: 700;
+    background: linear-gradient(to right, #00b0e0, #e000e0);
+}
+
+@media(max-width:769px){
+  #close-btn{
+    color: #00b0e0;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+ }
+ .form{
+   
+  align-items: left;
+  border: 1px solid #00b0e0;
+  justify-content: center;
+  display: grid;
+  width: 300px;
+  padding: 10px;
+  /* margin-left: 500px; */
+  top: 20px;
+  position: relative;
+  border-radius: 10px;
+  padding-bottom: 3%;
+  height: 70em;
+  box-shadow: 8px 4px 7px 4px rgba(204, 0, 223, 0.1);
+}
+}
